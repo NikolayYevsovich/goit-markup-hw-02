@@ -9,6 +9,8 @@
   /* Цвет фона */
   --main-bg-color: #ffffff;
   --secondary-bg-color: #2f303a;
+  --third-bg-color: #f5f4fa;
+
   /* Цвет Выделения */
   --accent-color: #2196f3;
   --hero-btn-accent: #188ce8;
@@ -128,6 +130,9 @@ body {
   list-style-type: none;
 }
 /* Наша команда */
+.team {
+  background-color: var(--third-bg-color);
+}
 .about-title,
 .team-title {
   font-weight: bold;
